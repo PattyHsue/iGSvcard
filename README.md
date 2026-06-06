@@ -35,7 +35,7 @@
 
 ### Design A — Classic (`index.html`)
 - 深藍底色 Navy background with gold gradient accents
-- 英文姓名 → 中文姓名 → 金色漸層裝飾線 → 職稱
+- 英文姓名 → 中文姓名 → 職稱 → 金色漸層裝飾線
 - Gold shimmer name animation
 - QR Code + 儲存名片 button
 
@@ -44,7 +44,7 @@
 - **🌠 Shooting Star Animation**: meteor flies left → right with tapered cone tail, micro-particle debris, and bow-shock flares
 - **💎 Diamond Impact Flash**: `diamondImpact` keyframe synced to meteor arrival (42% @ 3.5s cycle)
 - **Gradient ghost track**: faint orbital path beneath the meteor
-- **10-round hardened**: cubic-bezier physics, tapered polygon tail, responsive mobile scaling
+- **Aerodynamic Redesign**: 1:2:4 golden ratio teardrop proportions, cubic-bezier physics, curved bow-shock arc, responsive mobile scaling
 
 ### 🏠 Menu Selector (`menu.html`)
 - Dark navy starfield background with animated shooting stars
@@ -62,9 +62,7 @@ igrowth_vcard/
 ├── index.html                 # 📄 Design A — Classic gold line
 ├── index_design_c.html        # ✨ Design C — Shooting star + diamond
 ├── PatriciaHsue_iGrowth.vcf   # 📥 vCard contact file (v3.0)
-├── igs_logo.jpg               # Company logo
-├── index_design_a.html        # (draft)
-└── index_design_b.html        # (draft)
+└── igs_logo.jpg               # Company logo
 ```
 
 ---
@@ -83,6 +81,9 @@ igrowth_vcard/
 
 | Date | Update |
 |------|--------|
+| 2026-06-06 | Design C: Optimal aerodynamic teardrop ratio redesign (1:2:4 scaling) |
+| 2026-06-06 | Clean up repository: delete draft files (design_a, design_b, proposals) |
+| 2026-06-06 | Design A: Swap title and gold line order for design consistency |
 | 2026-06-06 | Add `menu.html` design selector page |
 | 2026-06-06 | Add `index_design_c.html` — Shooting Star + Diamond (10-round hardened) |
 | 2026-06-06 | Update VCF: `TITLE` → Senior Marketing Manager, add `EMAIL` field |
