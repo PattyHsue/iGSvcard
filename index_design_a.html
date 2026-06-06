@@ -203,13 +203,24 @@
       opacity: 0.85;
     }
 
-    /* Gold divider */
+    /* Gold divider — Design A: Diamond Ornament */
     .gold-line {
-      width: 100px;
+      position: relative;
+      width: 120px;
       height: 1.5px;
-      background: linear-gradient(90deg, transparent 0%, var(--gold) 30%, var(--gold-light) 50%, var(--gold) 70%, transparent 100%);
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
       margin: 12px 0;
-      box-shadow: 0 0 6px rgba(201,168,76,0.5);
+    }
+    .gold-line::after {
+      content: '◆';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 8px;
+      color: var(--gold);
+      background: var(--bg-card-top);
+      padding: 0 5px;
+      line-height: 1;
     }
 
     .title-text {
