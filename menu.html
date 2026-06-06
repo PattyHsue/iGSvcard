@@ -391,9 +391,9 @@
           <div class="mini-text-col">
             <div class="mini-en">Patricia Hsue</div>
             <div class="mini-zh">徐 桂 梅</div>
-            <!-- Classic: gold line then title -->
-            <div class="mini-line-classic"></div>
-            <div class="mini-title">Senior Marketing Manager</div>
+            <!-- Classic: title then gold line -->
+            <div class="mini-title" style="margin-top:2px;">Senior Marketing Manager</div>
+            <div class="mini-line-classic" style="margin-top:6px;"></div>
           </div>
         </div>
       </div>
@@ -460,8 +460,15 @@
                 </defs>
                 <!-- Ghost track -->
                 <line x1="0" y1="5" x2="112" y2="5" stroke="url(#mGrad)" stroke-width="0.6"/>
-                <!-- Mini meteor tail (static preview) -->
-                <polygon points="70,5 112,3.5 112,6.5" fill="url(#mMet)" opacity="0.85"/>
+                <!-- Mini meteor tail (static preview) with aerodynamic proportions -->
+                <polygon points="50,5 112,3.5 112,6.5" fill="url(#mMet)" opacity="0.9"/>
+                <polygon points="85,5 112,4.0 112,6.0" fill="#E8D28A" opacity="0.6"/>
+                <!-- Mini head spheres -->
+                <circle cx="112" cy="5" r="2.0" fill="#FFF0A0" filter="url(#mGlow)" opacity="0.6"/>
+                <circle cx="112" cy="5" r="1.0" fill="#FFFEF5"/>
+                <circle cx="112" cy="5" r="0.5" fill="white"/>
+                <!-- Mini bow shock arc -->
+                <path d="M 112.5,3 Q 114,5 112.5,7" stroke="#FFFDE7" stroke-width="0.4" fill="none" opacity="0.8"/>
                 <!-- Mini diamond -->
                 <path d="M118,2 L119.5,4.5 L122,5 L119.5,5.5 L118,8 L116.5,5.5 L114,5 L116.5,4.5 Z"
                       fill="url(#mGem)" filter="url(#mGlow)"/>
